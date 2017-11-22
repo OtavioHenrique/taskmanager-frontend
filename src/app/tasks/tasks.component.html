@@ -1,4 +1,4 @@
-<table class="table">
+<!-- <table class="table">
   <thead>
     <th>ID</th>
     <th>Titulo</th>
@@ -14,4 +14,25 @@
       </td>
     </tr>
   </tbody>
-</table>
+</table> -->
+<div class="row">
+  <div class="col-md-4" *ngFor ="let task of tasks">
+    <div class="card">
+
+        <!--Card image-->
+        <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%282%29.jpg" alt="Card image cap">
+
+        <!--Card content-->
+        <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title"> {{ task.title  }}</h4>
+            <!--Text-->
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Done</a>
+            <a class="btn btn-info">Detalhes</a>
+            <a class="btn btn-danger">Excluir</a>
+
+        </div>
+    </div>
+  </div>
+</div>

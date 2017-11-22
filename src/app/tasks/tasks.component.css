@@ -1,0 +1,15 @@
+.card {
+   margin-top: 1.025rem;
+   margin-left: 0;
+   margin-right: -0.625rem; // for us 0.625rem == 10px
+   padding-right: 0.625rem;
+   padding-bottom: 0.625rem;
+}
+
+.card-text {
+  margin-left: 0.6rem;
+}
+
+.card-title {
+  margin-left: 0.6rem;
+}
